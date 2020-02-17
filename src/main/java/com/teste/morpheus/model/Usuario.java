@@ -10,6 +10,7 @@ import javax.validation.constraints.NotBlank;
 public class Usuario {
 	
 	@Id
+	@NotBlank
 	private String login;
 	@NotBlank
 	private String nome;
