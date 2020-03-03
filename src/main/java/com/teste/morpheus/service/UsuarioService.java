@@ -10,6 +10,6 @@ public interface UsuarioService {
     
     List<Usuario> findAll();
 
-    List<Usuario> findByName(String nome);
+	void delete(String id);
 
 }

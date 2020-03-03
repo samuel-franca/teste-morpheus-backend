@@ -25,9 +25,9 @@ public class UsuarioServiceImpl implements UsuarioService{
 		return usuarioRepository.findAll();
 	}
 
-	@Override @Transactional(readOnly = true)
-	public List<Usuario> findByName(String nome) {
-		return usuarioRepository.findByNome(nome);
+	@Override
+	public void delete(String id) {
+		usuarioRepository.deleteById(id);
 	}
 
 }
