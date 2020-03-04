@@ -43,4 +43,6 @@ O servidor iniciará na porta 8080.
 - `git push heroku master`, para subir a aplicação pro Heroku;
 - Após isso, a aplicação já está disponível no Heroku e uma URL de acesso é disponibilizada: https://teste-morpheus-backend.herokuapp.com/.
 
-Vale ressaltar que, no backend, os controllers definidos foram feitos visando somente o uso da API no vueJS, por isso não há, por exemplo, a página inicial ("/"). No entanto, se inserir um path válido, a aplicação retorna o desejado. Por exemplo: https://teste-morpheus-backend.herokuapp.com/usuario/lista.
+Vale ressaltar que, após o deploy inicial, o Heroku foi autorizado para fazer os deploys automaticamente assim que os mesmos ocorrerem. Sendo assim, a aplicação do Heroku está atualizada com a última versão aqui disponível.
+
+Obs.: No backend, os controllers definidos foram feitos visando somente o uso da API no Vue.js, por isso não há, por exemplo, a página inicial ("/"). No entanto, se inserir um path válido, a aplicação retorna o desejado. Por exemplo: https://teste-morpheus-backend.herokuapp.com/usuario/lista.
